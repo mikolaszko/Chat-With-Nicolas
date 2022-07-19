@@ -4,6 +4,7 @@ import './Login.css';
 import { auth, provider } from '../../firebase';
 import { actionTypes } from '../reducer';
 import { useStateValue } from '../../StateProvider';
+import logo from './Animal_Crossing_Leaf.png';
 
 function Login() {
   const [{}, dispatch] = useStateValue();
@@ -23,10 +24,7 @@ function Login() {
   return (
     <div className='login'>
       <div className='login_container'>
-        <img
-          src='http://assets.stickpng.com/images/5b4a215cc051e602a568cd7c.png'
-          alt='Leaf logo from Animal Crossing'
-        />
+        <img src={logo} alt='Leaf logo from Animal Crossing' />
         <div className='login_text'>
           <h1>Sing in to Messaging App</h1>
         </div>
