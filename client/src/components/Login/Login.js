@@ -26,7 +26,7 @@ function Login() {
       <div className='login_container'>
         <img src={logo} alt='Leaf logo from Animal Crossing' />
         <div className='login_text'>
-          <h1>Sing in to Messaging App</h1>
+          <h1>Sing In into Messaging App</h1>
         </div>
         <Button onClick={signIn}>Sign In with Google</Button>
       </div>
