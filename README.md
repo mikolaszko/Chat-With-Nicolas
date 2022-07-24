@@ -1,46 +1,39 @@
-# Project Title
+# Chat with Nicolas
 
-Hello everyone! This MERN project was made to showcase my skills as a full-stack engineer. It's a live-chat room.
+Hello everyone! Chat with Nicolas is a real-chat application where you can login and chat with everyone in the group!
 
-## Description
+**Link to project:** https://messaging-app-mern-a5520.web.app/
 
-I decided that I need to refresh all of my portfolio projects since the old works were a little bit rough on the edges and they were mostly static sites which didn't represent my skills as a SWE :)
+![Presentation of Chat with Nicolas website](screen-capture.gif)
 
-### Dependencies
+## How It's Made:
 
-You will need to install:
+**Tech used:**
 
-CLIENT:
+### Frontend
 
-- React.js
-- MUI + MUI icons
-- Pusher.js
-- Axios
-- Firebase
+HTML, CSS, JavaScript, React.js, MUI, Pusher.js, Axios and Firebase
 
-SERVER:
+### Backend
 
-- Node.js
-- Express.js
-- Pusher
-- Mongoose
-- Cors
+Node.js, Express.js, Pusher, Mongoose, Cors
 
-### Executing program
+I started this project with the idea that I wanted to create something that would have a dynamic, realtime DB and that would allow a certain level of communication.
 
-You can just type the piece of code in your terminal at a client folder
+## Optimizations
 
-```
-npm start
-```
+Once I have more time I'd definitely want to re-code the whole thing with TS. I am very fond of the language and I am very aware of its potential. Site is also not fully responsive, because I engineered primarly for the desktop users but it would also be great to take care of that.
 
-## Authors
+## Lessons Learned:
 
-Contributors names and contact info
+It was my first time using Pusher and I wasn't aware of how much time would it take me to set-up. Another difficult part was debugging firebase deployments and it took me several hours but I've successfully went through that.
 
-Mikołaj Sodzawiczny
-[@AjSodzawiczny](https://twitter.com/AjSodzawiczny)
+## Examples:
 
-## Version History
+Take a look at these couple examples that I have in my own portfolio:
 
-19/07/2022 0.1v
+**BoardGameEnthusiast:** https://github.com/mikolaszko/BoardGameEnthusiast-e-commerce
+
+**Twitter:** https://github.com/mikolaszko/Twitter-clone-2.0
+
+**Hulu:** https://github.com/mikolaszko/hulu-2.0
